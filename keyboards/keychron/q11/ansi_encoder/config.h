@@ -21,3 +21,10 @@
 
 /* Enable caps-lock LED */
 #define CAPS_LOCK_LED_INDEX 23
+
+#define LEADER_PER_KEY_TIMING
+#define LEADER_TIMEOUT 190
+#define LEADER_NO_TIMEOUT
+
+
+
