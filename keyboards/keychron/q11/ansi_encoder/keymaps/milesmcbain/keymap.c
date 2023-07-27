@@ -83,6 +83,8 @@ void leader_end_user(void) {
         SEND_STRING("()");
     } else if (leader_sequence_two_keys(KC_L, KC_A)) {
         SEND_STRING("<-");
+    } else if (leader_sequence_two_keys(KC_A, KC_S)) {
+        SEND_STRING("<-");
     } else if (leader_sequence_two_keys(KC_R, KC_A)) {
         SEND_STRING("->");
     } else if (leader_sequence_two_keys(KC_P, KC_I)) {
@@ -93,7 +95,7 @@ void leader_end_user(void) {
         SEND_STRING("}");
     } else if (leader_sequence_two_keys(KC_L, KC_L)) {
         SEND_STRING("{}");
-    } else if (leader_sequence_two_keys(KC_E, KC_Q)) {
+    } else if (leader_sequence_two_keys(KC_E, KC_S)) {
         SEND_STRING("=");
     } else if (leader_sequence_two_keys(KC_E, KC_SPC)) {
         SEND_STRING("=");
@@ -104,6 +106,8 @@ void leader_end_user(void) {
     } else if (leader_sequence_two_keys(KC_L, KC_E)) {
         SEND_STRING("<=");
     } else if (leader_sequence_two_keys(KC_A, KC_N)) {
+        SEND_STRING("&");
+    } else if (leader_sequence_two_keys(KC_R, KC_E)) {
         SEND_STRING("&");
     } else if (leader_sequence_two_keys(KC_A, KC_A)) {
         SEND_STRING("&&");
@@ -121,9 +125,9 @@ void leader_end_user(void) {
         SEND_STRING("]]");
     } else if (leader_sequence_two_keys(KC_J, KC_J)) {
         SEND_STRING("[]");
-    } else if (leader_sequence_two_keys(KC_N, KC_T)) {
+    } else if (leader_sequence_two_keys(KC_N, KC_O)) {
         SEND_STRING("!");
-    } else if (leader_sequence_two_keys(KC_E, KC_M)) {
+    } else if (leader_sequence_two_keys(KC_E, KC_X)) {
         SEND_STRING("!");
     } else if (leader_sequence_two_keys(KC_N, KC_E)) {
         SEND_STRING("!=");
@@ -139,9 +143,11 @@ void leader_end_user(void) {
         SEND_STRING("*");
     } else if (leader_sequence_two_keys(KC_L, KC_S)) {
         SEND_STRING("\\");
-    } else if (leader_sequence_two_keys(KC_M, KC_S)) {
+    } else if (leader_sequence_two_keys(KC_M, KC_N)) {
         SEND_STRING("-");
-    } else if (leader_sequence_two_keys(KC_P, KC_S)) {
+    } else if (leader_sequence_two_keys(KC_P, KC_L)) {
+        SEND_STRING("+");
+    } else if (leader_sequence_two_keys(KC_A, KC_D)) {
         SEND_STRING("+");
     } else if (leader_sequence_two_keys(KC_F, KC_A)) {
         SEND_STRING("=>");
@@ -162,3 +168,4 @@ void leader_end_user(void) {
 
 
 }
+
