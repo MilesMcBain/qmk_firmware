@@ -143,7 +143,7 @@ void leader_end_user(void) {
         SEND_STRING("*");
     } else if (leader_sequence_two_keys(KC_L, KC_S)) {
         SEND_STRING("\\");
-    } else if (leader_sequence_two_keys(KC_M, KC_N)) {
+    } else if (leader_sequence_two_keys(KC_M, KC_I)) {
         SEND_STRING("-");
     } else if (leader_sequence_two_keys(KC_P, KC_L)) {
         SEND_STRING("+");
@@ -165,7 +165,4 @@ void leader_end_user(void) {
         SEND_STRING("%>%");
     }
 
-
-
 }
-
